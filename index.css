@@ -42,11 +42,15 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 1rem;
+    margin-right: 20px;
+    padding-right: 25px;
 }
 
 .nav-links a:hover {
-    color: #55b35d;;
+    color: #55b35d;
 }
+
+
 
 .hero {
     background-image: url('https://via.placeholder.com/1200x600');
@@ -72,7 +76,7 @@ nav {
 
 .shop-now-btn {
     padding: 10px 20px;
-    background-color: #55b35d;;
+    background-color: #6a11cb;
     border: none;
     color: white;
     font-size: 1rem;
@@ -81,7 +85,7 @@ nav {
 }
 
 .shop-now-btn:hover {
-    background-color: #55b35d;;
+    background-color: #55b35d;
 }
 
 .products {
@@ -99,9 +103,12 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.product-container :hover{
+    background-color: #55b35d;
+}
 
 .product-card {
-    background-color: #f9f9f9;
+    background-color: #6a11cb;
     padding: 20px;
     width: 22%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -121,12 +128,12 @@ nav {
 
 .product-card p {
     font-size: 1.2rem;
-    color: #55b35d;
+    color: white;
 }
 
 .product-card button {
     padding: 10px 15px;
-    background-color: white;
+    background-color: #55b35d;
     color: white;
     border: none;
     cursor: pointer;
@@ -135,8 +142,10 @@ nav {
 }
 
 .product-card button:hover {
-    background-color: #55b35d;
+    background-color: #6a11cb;
 }
+
+
 
 
 @media (max-width: 768px) {
